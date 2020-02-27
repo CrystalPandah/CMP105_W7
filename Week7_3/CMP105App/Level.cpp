@@ -25,6 +25,7 @@ Level::~Level()
 void Level::handleInput(float dt)
 {
 	player.handleInput(dt);
+	bullet.handleInput(dt);
 }
 
 // Update game objects
