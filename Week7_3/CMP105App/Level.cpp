@@ -6,6 +6,8 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	input = in;
 
 	// initialise game objects
+	player.setPosition(200, 200);
+	player.setSize(sf::Vector2f(100, 100));
 	player.setInput(input);
 
 	bullet.setPosition(500, 500);
