@@ -6,11 +6,15 @@ Bullet::Bullet()
 	setSize(sf::Vector2f(10, 10));
 	setFillColor(sf::Color::Red);
 	setVelocity(500, 0);
+
+	// Init input component
+	input = nullptr;
 }
 
 
 Bullet::~Bullet()
 {
+	input = nullptr;
 }
 
 void Bullet::update(float dt)
