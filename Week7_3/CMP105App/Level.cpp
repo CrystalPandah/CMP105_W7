@@ -7,6 +7,11 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	// initialise game objects
 	player.setInput(input);
+
+	bullet.setPosition(500, 500);
+	bullet.setSize(sf::Vector2f(10, 10));
+	bullet.setFillColor(sf::Color::Red);
+	bullet.setVelocity(500, 0);
 }
 
 Level::~Level()
