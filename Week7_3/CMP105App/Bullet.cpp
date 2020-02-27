@@ -17,7 +17,13 @@ Bullet::~Bullet()
 	input = nullptr;
 }
 
+void Bullet::handleInput(float dt)
+{
+	
+}
+
 void Bullet::update(float dt)
 {
+
 	move(velocity*dt);
 }
