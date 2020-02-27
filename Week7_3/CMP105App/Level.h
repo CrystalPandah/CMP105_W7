@@ -5,7 +5,7 @@
 #include <string>
 #include <iostream>
 #include "Player.h"
-
+#include "Bullet.h"
 
 
 class Level{
