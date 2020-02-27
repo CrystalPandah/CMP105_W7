@@ -9,5 +9,6 @@ public:
 	~Bullet();
 
 	void update(float dt);
+	void handleInput(float dt);
 
 };
