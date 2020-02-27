@@ -23,6 +23,7 @@ void Level::handleInput(float dt)
 // Update game objects
 void Level::update(float dt)
 {
+	player.update(dt); //This line was not initially in
 	enemy.update(dt);
 }
 
