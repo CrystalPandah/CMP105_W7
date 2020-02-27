@@ -27,5 +27,5 @@ private:
 	Input* input;
 
 	Player player;
-	Bullet bullet;
+	//Bullet bullet;
 };
